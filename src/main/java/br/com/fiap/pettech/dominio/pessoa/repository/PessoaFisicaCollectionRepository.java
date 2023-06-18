@@ -63,5 +63,4 @@ public class PessoaFisicaCollectionRepository {
         pessoas.removeIf(p -> p.getId().equals(id));
     }
 
-
 }
