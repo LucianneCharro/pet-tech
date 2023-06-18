@@ -90,3 +90,8 @@ public class Produto {
                 '}';
     }
 }
+//stream -> transformar em stream é uma forma simplificada de trabalharmos com as collections no java
+// (no nosso caso a collection é o set)
+// é uma estrutura de dados e nos permite passar uma expressão lambda para fazer um filtro dentro do set,
+// nesse filter passará o id. No caso do filter ele retorna um Optional
+
