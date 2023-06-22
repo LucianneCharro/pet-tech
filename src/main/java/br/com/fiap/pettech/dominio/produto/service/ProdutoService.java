@@ -24,7 +24,6 @@ public class ProdutoService {
     @Autowired
     private IProdutoRepository repo;
 
-
     public Page<ProdutoDto> findAll(PageRequest pagina) {
         var produtos = repo.findAll(pagina);
 
